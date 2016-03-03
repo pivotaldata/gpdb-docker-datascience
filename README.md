@@ -9,15 +9,15 @@ cd [docker working directory]
 docker build -t [tag] .
 
 # Data Science Installer Files
-PL/Perl-plperl-ossv5.12.4_pv1.3_gpdb4.3orca-rhel7-x86_64.gppkg
+plperl-ossv5.12.4_pv1.3_gpdb4.3orca-rhel7-x86_64.gppkg
 
-PL/Java-pljava-ossv1.4.0_pv1.3_gpdb4.3orca-rhel5-x86_64.gppkg
+pljava-ossv1.4.0_pv1.3_gpdb4.3orca-rhel5-x86_64.gppkg
 
-PL/R-plr-ossv8.3.0.15_pv2.1_gpdb4.3orca-rhel5-x86_64.gppkg
+plr-ossv8.3.0.15_pv2.1_gpdb4.3orca-rhel5-x86_64.gppkg
 
-MADlib-madlib-ossv1.8_pv1.9.4_gpdb4.3orca-rhel5-x86_64.tar
+postgis-ossv2.0.3_pv2.0.1_gpdb4.3orca-rhel5-x86_64.gppkg
 
-PostGIS-postgis-ossv2.0.3_pv2.0.1_gpdb4.3orca-rhel5-x86_64.gppkg
+madlib-ossv1.8_pv1.9.4_gpdb4.3orca-rhel5-x86_64.tar
 
 # Running the Docker Image
 docker run -i -p 5432:5432 [tag]
