@@ -2,7 +2,7 @@
 Pivotal Greenplum Database Data Science Docker Image (4.3.7.1)
 
 # Building the Docker Image
-You will first need to download the Pivotal Greenplum Database 4.3.7.1 RHEL compatible data science extensions (PL/Perl, PL/Java, PL/R, MADLib, & PostGIS) located at https://network.pivotal.io/products/pivotal-gpdb and place it inside the docker working directory. The individual files required are listed below. 
+You will first need to download the Pivotal Greenplum Database 4.3.7.1 RHEL compatible data science extensions (PL/Perl, PL/Java, PL/R, MADLib, & PostGIS) located at https://network.pivotal.io/products/pivotal-gpdb and place them inside the docker working directory. The individual files required are listed below. 
 
 [list of files goes here]
 
